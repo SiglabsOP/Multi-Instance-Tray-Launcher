@@ -14,7 +14,8 @@ Multi Instance Tray Launcher 9.7
  Recommended to use this program in combination with python menu solutions.
  
  
- 
+ ![image](https://github.com/user-attachments/assets/9f6038c0-e1a9-4fd3-bffa-0441f7bb1d2a)
+
  
 
 
