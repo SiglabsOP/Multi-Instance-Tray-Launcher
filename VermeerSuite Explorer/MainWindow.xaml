@@ -1,0 +1,212 @@
+﻿<Window x:Class="AnimatedFileExplorer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="VermeerLab Explorer (c) 2024 Peter De Ceuster v9.7" WindowState="Maximized">
+    <Window.Resources>
+        <ResourceDictionary>
+            <LinearGradientBrush x:Key="WindowBackground" StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="LightBlue" Offset="0"/>
+                <GradientStop Color="Blue" Offset="1"/>
+            </LinearGradientBrush>
+
+            <Style x:Key="PrettyButtonStyle" TargetType="Button">
+                <Setter Property="Foreground" Value="Green"/>
+                <Setter Property="Width" Value="120"/>
+                <Setter Property="Height" Value="60"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border x:Name="ButtonBorder" Background="DarkSlateGray" CornerRadius="30">
+                                <Border.Effect>
+                                    <DropShadowEffect ShadowDepth="3" BlurRadius="5"/>
+                                </Border.Effect>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <Border.Resources>
+                                    <ScaleTransform x:Key="ButtonScale" ScaleX="1" ScaleY="1"/>
+                                </Border.Resources>
+                                <Border.RenderTransform>
+                                    <StaticResource ResourceKey="ButtonScale"/>
+                                </Border.RenderTransform>
+                            </Border>
+
+                            <ControlTemplate.Triggers>
+                                <EventTrigger RoutedEvent="UIElement.MouseEnter">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <ColorAnimation To="White" Duration="0:0:0.2" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"/>
+                                            <DoubleAnimation Storyboard.TargetName="ButtonBorder" 
+                                     Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleX)" 
+                                     To="1.1" Duration="0:0:0.2"/>
+                                            <DoubleAnimation Storyboard.TargetName="ButtonBorder" 
+                                     Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleY)" 
+                                     To="1.1" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+
+                                <EventTrigger RoutedEvent="UIElement.MouseLeave">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="ButtonBorder" 
+                                     Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleX)" 
+                                     To="1" Duration="0:0:0.2"/>
+                                            <DoubleAnimation Storyboard.TargetName="ButtonBorder" 
+                                     Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleY)" 
+                                     To="1" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                                
+                                <EventTrigger RoutedEvent="Button.Click">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <!-- Click animation -->
+                                            <DoubleAnimation Storyboard.TargetName="ButtonBorder" 
+                             Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleX)" 
+                             To="0.9" Duration="0:0:0.1"/>
+                                            <DoubleAnimation Storyboard.TargetName="ButtonBorder" 
+                             Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleY)" 
+                             To="0.9" Duration="0:0:0.1"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+
+                                <!-- Other triggers remain unchanged -->
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid Background="{StaticResource WindowBackground}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="WelcomeText" Text="VermeerLab multithreaded Explorer." HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Opacity="0">
+            <TextBlock.Triggers>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:8" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </TextBlock.Triggers>
+        </TextBlock>
+
+        <Button Grid.Row="1" Content="Locate by extension" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20" Click="LocateFilesInSubfoldersButton_Click" Style="{StaticResource PrettyButtonStyle}">
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:1" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+
+        <Button Grid.Row="1" Content="Access Lab Command" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,20,0,0" Click="OpenExternalAppButton_Click" Style="{StaticResource PrettyButtonStyle}">
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:1" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+
+        <Button Grid.Row="1" Content="Log Central" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="450,20,0,0" Click="OpenSecondExternalAppButton_Click" Style="{StaticResource PrettyButtonStyle}">
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:1" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+
+        <Button Grid.Row="1" Content="Locate by Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,20,0,0" Click="SearchFilesByNameButton_Click" Style="{StaticResource PrettyButtonStyle}">
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:1" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+
+        <ListView Grid.Row="2" x:Name="FilesListView" Margin="20,20,20,20" Background="LightYellow">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="File Name" Width="200" DisplayMemberBinding="{Binding FileName}" />
+                    <GridViewColumn Header="Date Created" Width="150" DisplayMemberBinding="{Binding CreationTime}" />
+                    <GridViewColumn Header="Last Modified" Width="150" DisplayMemberBinding="{Binding LastWriteTime}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Grid.Row="0" Grid.Column="3" Content="Exit" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,20,20,0" Click="ExitButton_Click" Style="{StaticResource PrettyButtonStyle}">
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:1" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+        <Button Grid.Row="1" Content="Maintenance Tasks" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="600,20,0,0" Click="NewButton_Click" Style="{StaticResource PrettyButtonStyle}">
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:1" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+        <Button Grid.Row="1" Content="Financial Hub" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="750,20,0,0" Click="NewButtonF_Click" Style="{StaticResource PrettyButtonStyle}">
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:1" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+        <Button Grid.Row="1" Content="Administration Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="900,20,0,0" Click="NewButtonA_Click" Style="{StaticResource PrettyButtonStyle}">
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:1" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+        
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20">
+            <Button x:Name="PreviousButton" Content="Previous" Click="PreviousButton_Click" Style="{StaticResource PrettyButtonStyle}" Margin="0,0,20,0"/>
+            <Button x:Name="NextButton" Content="Next" Click="NextButton_Click" Style="{StaticResource PrettyButtonStyle}"/>
+        </StackPanel>
+    </Grid>
+</Window>

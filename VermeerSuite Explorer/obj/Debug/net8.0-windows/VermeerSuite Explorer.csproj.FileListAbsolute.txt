@@ -1,0 +1,56 @@
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\VermeerSuite Explorer.exe
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\VermeerSuite Explorer.deps.json
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\VermeerSuite Explorer.runtimeconfig.json
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\VermeerSuite Explorer.dll
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\VermeerSuite Explorer.pdb
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\Microsoft.WindowsAPICodePack.Core.dll
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\Microsoft.WindowsAPICodePack.Sensors.dll
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.csproj.AssemblyReference.cache
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\MainWindow.baml
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\App.g.cs
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer_MarkupCompile.cache
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.g.resources
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite_Explorer.Properties.Resources.resources
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.csproj.GenerateResource.cache
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.GeneratedMSBuildEditorConfig.editorconfig
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.AssemblyInfoInputs.cache
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.AssemblyInfo.cs
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.csproj.CoreCompileInputs.cache
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.dll
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\refint\VermeerSuite Explorer.dll
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.pdb
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.genruntimeconfig.cache
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\ref\VermeerSuite Explorer.dll
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\VermeerSuite Explorer.exe
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\VermeerSuite Explorer.deps.json
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\VermeerSuite Explorer.runtimeconfig.json
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\VermeerSuite Explorer.dll
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\VermeerSuite Explorer.pdb
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\Microsoft.WindowsAPICodePack.Core.dll
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\Microsoft.WindowsAPICodePack.Sensors.dll
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\bin\Debug\net8.0-windows\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.csproj.AssemblyReference.cache
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\MainWindow.baml
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\MainWindow.g.cs
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\App.g.cs
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer_MarkupCompile.cache
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.g.resources
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite_Explorer.Properties.Resources.resources
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.csproj.GenerateResource.cache
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.GeneratedMSBuildEditorConfig.editorconfig
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.AssemblyInfoInputs.cache
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.AssemblyInfo.cs
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.csproj.CoreCompileInputs.cache
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerS.DD2AC5E4.Up2Date
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.dll
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\refint\VermeerSuite Explorer.dll
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.pdb
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerSuite Explorer.genruntimeconfig.cache
+F:\c\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\ref\VermeerSuite Explorer.dll
+C:\VermeerSuite 10-1\VermeerSuite Development\Library\VS\Explorer\VermeerSuite Explorer\obj\Debug\net8.0-windows\VermeerS.DD2AC5E4.Up2Date
