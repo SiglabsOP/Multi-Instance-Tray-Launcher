@@ -3,7 +3,7 @@ Multi Instance Tray Launcher 9.7
  
   
  In a lab environment, efficiency and organization are paramount. Our Multi-Instance Tray Launcher is designed to streamline your workflow by providing a smooth, modern tool that lives in your system tray. This launcher is capable of handling multiple instances, interlinked   and offers a sleek, modern design with some search capabilities. Configurable through Visual Studio, it is a good solution to integrate in your existing workflow, and compliment your existing GUI. Seeking to enhance productivity you can hence manage your tasks seamlessly. The launcher has been optimized for stability,security and memory useage and delivers audio cues.
-
+ Locate by extension and name.
  
  Coded in C sharp for NET 8.0
  
